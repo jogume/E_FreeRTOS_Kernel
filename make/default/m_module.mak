@@ -6,11 +6,11 @@
 ###############################################################################
 
 #------------------------- Module information --------------------------------#
-MODULE_NAME            = E_FreeRTOS_Kernel
-MODULE_PATH            = .:portable/MemMang:portable/MSVC-MingW
-MODULE_HEADER_PATH     = include:portable/MSVC-MingW
-MODULE_STATUS          = public
-PRE_COMPILE_VARIANT    = default
+MODULE_NAME             = E_FreeRTOS_Kernel
+MODULE_SOURCES_PATH     = .:portable/MemMang:portable/MSVC-MingW
+CC_INCLUDE_PRIVATE_PATH = include:portable/MSVC-MingW
+MODULE_STATUS           = public
+PRE_COMPILE_VARIANT     = default
 
 #---------------------------------------------------------------------------------------------------------------------------#
 # Objects - FreeRTOS Kernel core files
